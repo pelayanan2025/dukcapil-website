@@ -1,0 +1,5 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+:root { color-scheme: light; }
+html.dark { color-scheme: dark; }
+.container-app { @apply mx-auto w-full max-w-7xl px-4; }
+.badge { @apply inline-flex items-center rounded-full px-3 py-1 text-xs font-semibold; }
